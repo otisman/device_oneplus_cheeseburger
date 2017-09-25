@@ -304,13 +304,14 @@ PRODUCT_PACKAGES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.0-impl \
+    android.hardware.power@1.0-service \
     power.msm8998
 
 # Prebuilts
 PRODUCT_PACKAGES += \
     OnePlusCamera \
     OnePlusCameraService \
-    OnePlusGallery 
+    OnePlusGallery
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilts/lib/libfilter-sdk.so:system/lib/libfilter-sdk.so \
