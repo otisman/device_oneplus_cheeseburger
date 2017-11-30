@@ -380,6 +380,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshims_system_properties
 
+# Telephony CAF
+PRODUCT_PACKAGES += \
+    telephony-ext \
+    ims-ext-common
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
+
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl \
