@@ -40,6 +40,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=OnePlus5 PRODUCT_NAME=OnePlus5
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=OnePlus/OnePlus5/OnePlus5:7.1.1/NMF26X/10171617:user/release-keys
     
-INV_MAINTAINER := BlackScorpion3-Robert Medeiros(Otisman)
+INV_MAINTAINER := BlackScorpion3
 
 TARGET_VENDOR := oneplus
